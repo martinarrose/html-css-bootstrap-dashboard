@@ -1,3 +1,5 @@
+<!-- DA RIFARE :D 🥲 -->
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -24,10 +26,26 @@
   </head>
   <body>
     <div>
+        <header>
+            <nav 
+            class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+
+                </a>
+                <button
+                class="navbar-toggler d-lg-none" 
+                type="button" data-bs-toggler="collapse"
+                >
+            </button>
+            </div>
+                
+            </nav>
+        </header>
       <main class="d-grid">
         <div class="row">
           <div class="col-12 col-md-12 col-lg-8">
-            <div class="container text-center d-grid gap-3 p-4">
+            <div class="container text-center gap-3 p-4 d-flex justify-content-between" style="width: 100%;">
               <div class="row">
                 <div class="col"><h1>Catalogo Libri</h1></div>
                 <div class="col">
@@ -282,82 +300,88 @@
               </div>
             </div>
             <div class="px-3 py-4">
-              <div class="card" style="width: 20rem"></div>
-              <div class="card-header fs-2">F.A.Q</div>
-              <div class="card-body">
-                <div class="accordion" id="accordionExample">
-                  <div class="accordion-item">
-                    <h2 class="accordion-header">
-                      <button
-                        class="accordion-button"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#collapseOne"
-                        aria-expanded="true"
-                        aria-controls="collapseOne"
+              <div class="card" style="width: 20rem">
+                <div class="card-header fs-3">F.A.Q</div>
+                  <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button
+                          class="accordion-button"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapseOne"
+                          aria-expanded="true"
+                          aria-controls="collapseOne"
+                        >
+                          Come aggiungere un nuovo libro?
+                        </button>
+                      </h2>
+                      <div
+                        id="collapseOne"
+                        class="accordion-collapse collapse show"
+                        data-bs-parent="#accordionExample"
                       >
-                        Come aggiungere un nuovo libro?
-                      </button>
-                    </h2>
-                    <div
-                      id="collapseOne"
-                      class="accordion-collapse collapse show"
-                      data-bs-parent="#accordionExample"
-                    >
-                      <div class="accordion-body">
-                        <strong>Lorem ipsum dolor sit amet consectetur.</strong>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Minus, amet.
+                        <div class="accordion-body">
+                          <strong
+                            >Lorem ipsum dolor sit amet consectetur.</strong
+                          >
+                          Lorem ipsum dolor sit amet, consectetur adipisicing
+                          elit. Minus, amet.
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  <div class="accordion-item">
-                    <h2 class="accordion-header">
-                      <button
-                        class="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#collapseTwo"
-                        aria-expanded="false"
-                        aria-controls="collapseTwo"
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapseTwo"
+                          aria-expanded="false"
+                          aria-controls="collapseTwo"
+                        >
+                          Come posso accedere all'anagrafica utenti?
+                        </button>
+                      </h2>
+                      <div
+                        id="collapseTwo"
+                        class="accordion-collapse collapse"
+                        data-bs-parent="#accordionExample"
                       >
-                        Come posso accedere all'anagrafica utenti?
-                      </button>
-                    </h2>
-                    <div
-                      id="collapseTwo"
-                      class="accordion-collapse collapse"
-                      data-bs-parent="#accordionExample"
-                    >
-                      <div class="accordion-body">
-                        <strong>Lorem ipsum dolor sit amet consectetur.</strong>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        In, quis.
+                        <div class="accordion-body">
+                          <strong
+                            >Lorem ipsum dolor sit amet consectetur.</strong
+                          >
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. In, quis.
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  <div class="accordion-item">
-                    <h2 class="accordion-header">
-                      <button
-                        class="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#collapseThree"
-                        aria-expanded="false"
-                        aria-controls="collapseThree"
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapseThree"
+                          aria-expanded="false"
+                          aria-controls="collapseThree"
+                        >
+                          Posso usare questa dashoard da mobile?
+                        </button>
+                      </h2>
+                      <div
+                        id="collapseThree"
+                        class="accordion-collapse collapse"
+                        data-bs-parent="#accordionExample"
                       >
-                        Posso usare questa dashoard da mobile?
-                      </button>
-                    </h2>
-                    <div
-                      id="collapseThree"
-                      class="accordion-collapse collapse"
-                      data-bs-parent="#accordionExample"
-                    >
-                      <div class="accordion-body">
-                        <strong>Lorem ipsum dolor sit amet consectetur.</strong>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Commodi, at!
+                        <div class="accordion-body">
+                          <strong
+                            >Lorem ipsum dolor sit amet consectetur.</strong
+                          >
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Commodi, at!
+                        </div>
                       </div>
                     </div>
                   </div>

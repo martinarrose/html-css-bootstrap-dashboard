@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <title>Nuovo libro</title>
+  </head>
+  <body>
+    <header>copiare</header>
+    <main>
+      <form action="">
+        <h1>Titolo</h1>
+
+        <!-- nome cognome autore -->
+        <div class="row">
+          <div class="col-6">
+            <label for="autorName" class="form-label"> Nome Autore </label>
+            <input type="text" class="form-control" id="autorName" />
+          </div>
+          <div class="col-6">
+            <label for="autorLastName" class="form-label">
+              Cognome Autore
+            </label>
+            <input type="text" class="form-control" id="autorLastName" />
+          </div>
+        </div>
+
+        <!-- titolo -->
+        <div class="row">
+          <label for="bookTitle" class="form-label">Titolo</label>
+          <input
+            type="text"
+            class="form-control"
+            id="bookTitle"
+            aria-describedby="bookTitleHelp"
+          />
+          <div id="bookTitleHelp" class="form-text">
+            Titolo versione italiana
+          </div>
+        </div>
+
+        <!-- tgenere anno di publicazione e isbn -->
+        <div class="row">
+          <div class="col-12">
+            <label for="bookSelect" class="form-label">Genere</label>
+            <select id="bookSelect" class="form-select">
+              <option>Scegli il genere</option>
+              <option>Ciccino</option>
+              <option>Ciccino</option>
+              <option>Ciccino</option>
+              <option>Ciccino</option>
+              <option>Ciccino</option>
+            </select>
+          </div>
+          <div class="col-12">
+            <label for="publishedDate" class="form-label">
+              Anno di pubblicazione
+            </label>
+            <input type="date" class="form-control" id="publishedDate" />
+          </div>
+          <div class="col-12">
+            <label for="isbnCode" class="form-label"> ISBN# </label>
+            <input type="number" class="form-control" id="isbnCode" />
+          </div>
+        </div>
+        <hr />
+        <div class="row">
+          <label for="notesBook" class="form-label">Note</label>
+          <textarea class="form-control" id="notesBook" rows="3"></textarea>
+        </div>
+        <div class="row">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+          <label class="form-check-label" for="exampleCheck1"
+            >Disponibile anche in digitale</label
+          >
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </main>
+  </body>
+</html>
